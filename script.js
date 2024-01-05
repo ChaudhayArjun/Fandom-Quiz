@@ -4,7 +4,7 @@ import chalk from "chalk";
 var userName = readlineSync.question("Hi What is your name? ");
 console.log("---------------");
 
-console.log("Welcome " + chalk.red(userName) + " to this Little Quize Game?",
+console.log("Welcome " + chalk.red(userName) + " to this Pokemon Quize Game?",
 );
 console.log("---------------");
 
@@ -109,7 +109,7 @@ if (userAnsWer == "y" || userAnsWer == "Y") {
       {
         // 6
         question:
-          "6. What is the slogan of the Pokemon franchise? A.Catch ‘em if you can  B.Catch ‘em all  C.Gotta catch ‘em all ",
+          "6. What is the slogan of the Pokemon franchise? A.Catch'em if you can  B.Catch'em all  C.Gotta catch'em all ",
         ans: "C",
       },
       {
@@ -127,7 +127,7 @@ if (userAnsWer == "y" || userAnsWer == "Y") {
       {
         // 9
         question:
-          "9. 32. At the beginning of the Pokemon anime, why does Misty follow Ash Ketchum? A.Because Ash stole Misty’s bicycle  B.Because Ash stole Misty’s rod  C.Because Misty just wanted to do it ",
+          "9. 32. At the beginning of the Pokemon anime, why does Misty follow Ash Ketchum? A.Because Ash stole Misty's bicycle  B.Because Ash stole Misty’s rod  C.Because Misty just wanted to do it ",
         ans: "C",
       },
       {
@@ -165,5 +165,5 @@ if (userAnsWer == "y" || userAnsWer == "Y") {
     console.log(highScore.name + " : " + highScore.score);
   }
 } else {
-  console.log(chalk.red("Byeee "));
+  console.log(chalk.red("Byeee. "));
 }
